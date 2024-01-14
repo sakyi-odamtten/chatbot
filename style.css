@@ -1,0 +1,121 @@
+body{
+    background: #F5F5F5;
+
+}
+#firstimg {
+    position: relative;
+    left: 1200px;
+    top: 500px;
+}
+#firstdiv {
+    background:#FFFFFF;
+    width: 383px;
+    height: 500px;
+    position: relative;
+    left: 910px;
+    top: 90px;
+    border-radius: 18px;
+    box-shadow: 5px 14px 80px 0px #1A1A1A1F;
+   /* display: grid;
+    grid-template-rows: 1fr auto 1fr;*/
+}
+#head1 {
+    background: #3047EC;
+    height: 80px;
+    border-radius: 18px 18px 0 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 0 20px;
+    z-index: 2;
+}
+#back{
+    position: relative;
+    top: 12px;
+}
+#img2 {
+    position: relative;
+    left: 30px;
+    top: 16px;
+}
+#ptag1{
+    position: relative;
+    left: 45px;
+    text-align: justify;
+    color: #F8F8F8;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 14px;
+}
+#spanhead{
+    font-weight: 600;
+    font-size: 20px;
+}
+#messagesection {
+     overflow-y: auto;
+}
+#usermessage {
+    position: relative;
+    background: #3047EC;
+    /*width: Hug (254px);*/
+    min-height: 30px;
+    min-width: 70px;
+    padding: 16px, 19px, 16px, 19px;
+    border-radius: 6px;
+    float: right;
+    margin: 10px;
+}
+#botmessage {
+    position: relative;
+    background: #F2F2F2; 
+    min-height: 50px;
+    padding: 16px, 18px, 16px, 18px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+}
+#userspan {
+    font-family:'Inter';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+#botspan{
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+#inputdiv {
+    position: relative;
+    top: 330px;
+    height: 65px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-top: 1px solid #EBEBEB;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+#inputbox{
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+#inputdiv img {
+    padding: 0px 10px;
+}
+#dropimg {
+    position: relative;
+    left: 1200px;
+    top: 90px;
+}
